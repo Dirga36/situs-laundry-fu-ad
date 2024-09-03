@@ -1,0 +1,1 @@
+hanya latihan kecil
