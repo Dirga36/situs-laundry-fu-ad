@@ -1,1 +1,1 @@
-hanya latihan kecil
+tugas membuat situs laundry
