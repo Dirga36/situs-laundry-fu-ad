@@ -1,6 +1,6 @@
-#tugas membuat situs laundry
+# Tugas membuat situs laundry
 
-##cara menjalankan
+## Cara menjalankan
 1. download repository ini menjadi zip
 2. install XAMPP
 3. jalankan Apache
