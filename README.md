@@ -1,4 +1,4 @@
-# Tugas GitHub
+# Panel admin dari aplikasi laundry
 
 ## Deskripsi Proyek
 Proyek ini adalah contoh halaman web sederhana. Desain halaman ini berdasarkan modul **Git & GitHub Fundamental** tugas sebagai referensi yang diberikan dan mencakup header, area konten utama, dan footer.
@@ -25,9 +25,9 @@ Proyek ini berguna sebagai contoh awal untuk:
     ```bash
     mv situs-laundry-fu-ad **/xampp/htdoc
     ```
-3. **j**
-3. **jalankan Apache**
-4. hidupkan PHPmyAdmin
+3. **Jalankan XAMPP control panel**
+3. **Tekan APACHE(yang bertuliskan apache) untuk menghidupkan-nya**
+4. **Tekan ADMIN untuk mengakses PHPMyAdmin**
 7. salin direktori saat ini
 8. akses PHPmyAdmin, lalu impor database dari repository
 9. buka browser tempel direktori sebelumnya, lalu jalankan(enter)
