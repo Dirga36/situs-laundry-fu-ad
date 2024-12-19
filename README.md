@@ -14,15 +14,23 @@ Proyek ini berguna sebagai contoh awal untuk:
 - Membuat sebuah _form_ pada halaman web.
 
 ## Cara Menggunakan
+### Persiapan
+• XAMPP (menyediakan _compiler_ PHP, APACHE, localhost dan MySQL yang dibutuhkan untuk menjalankan proyek ini)
+### Langkah-langkah
 1. **Clone repositori ini**:
     ```bash
-    git clone https://github.com/Dirgant/SMKCoding2024.git
+    git clone https://github.com/Dirgant/situs-laundry-fu-ad.git
     ```
-2. **Masuk ke direktori proyek**:
+2. **Pindahkan direktori proyek ke wilayah XAMPP**:
     ```bash
-    cd SMKCoding2024
+    mv situs-laundry-fu-ad **/xampp/htdoc
     ```
-3. **Buka file `index.html` dengan peramban web favorit Anda** untuk melihat halaman web.
+3. **j**
+3. **jalankan Apache**
+4. hidupkan PHPmyAdmin
+7. salin direktori saat ini
+8. akses PHPmyAdmin, lalu impor database dari repository
+9. buka browser tempel direktori sebelumnya, lalu jalankan(enter)
 
 ## Struktur Proyek
 ```
