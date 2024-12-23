@@ -1,46 +1,45 @@
-# SISTEM INFORMASI LAUNDRY
+# LAUNDRY INFORMATION SYSTEM
 
-## Deskripsi Proyek
-Proyek ini adalah contoh aplikasi-web laundry dari sisi adminnya. Desain dan fitur halaman ini berdasarkan modul **MEMBUAT SISTEM INFORMASI LAUNDRY** tugas sekolah saya sebagai referensi yang diberikan; serta mencakup API dan database.
-## Fitur
-- **AUTENTIKASI DAN OTORISASI ADMIN**:.
-- **CRUD**: Menyediakan pengaturan untuk data para pelanggan laundry.
-- **TRANSAKSI**: Menetapkan harga untuk transaksi dan alur transaksi.
-- **INVOICE**: Menyediakan pembuatan invoice.
+## Project Description
+This project is an example of a laundry web application from the admin side. The design and features of this page are based on the **CREATE A LAUNDRY INFORMATION SYSTEM** module of my school assignment as a reference provided; and includes API and database.
+## Features
+- **CRUD**: Provides settings for laundry customer data.
+- **TRANSACTION**: Sets prices for transactions and transaction flows.
+- **INVOICE**: Provides invoice creation.
 
-## Kegunaan
-Proyek ini berguna sebagai contoh awal untuk:
-- Autentikasi dan otorisasi.
-- Membuat alur transaksi.
+## Usefulness
+This project is useful as an initial example for:
+- Authentication and authorization.
+- Creating transaction flows.
 
-## Cara Menjalankan
-### Persiapan
-• XAMPP (menyediakan _compiler_ PHP, APACHE, localhost dan MySQL yang dibutuhkan untuk menjalankan proyek ini)
-### Langkah-langkah
-1. **Clone repositori ini**:
-    ```bash
-    git clone https://github.com/Dirgant/situs-laundry-fu-ad.git
-    ```
-2. **Pindahkan direktori proyek ke wilayah XAMPP**:
-    ```bash
-    mv situs-laundry-fu-ad **/xampp/htdoc
-    ```
-3. **Jalankan XAMPP control panel**
-4. **Nyalakan Apache**
-5. **Nyalakan PHPMyadmin**
-6. **Akses PHPmyAdmin, lalu impor  <a href="database.sql">database.sql</a>**
-   ```cmd
-   mysql -u root -p
-   ```
-   ```cmd
-   CREATE DATABASE new_database;
-   ```
-   ```cmd
-   mysql -u username -p new_database < database.sql
-   ```
-8. **Buka browser, tulis direktori proyek, lalu jalankan**
+## Line Method
+### Preparation
+• XAMPP (provides the PHP compiler, APACHE, localhost and MySQL required to run this project)
+### Steps
+1. **Clone this repository**:
+``` bash
+git clone https://github.com/Dirgant/situs-laundry-fu-ad.git
+```
+2. **Move the project directory to the XAMPP region**:
+``` bash
+mv situs-laundry-fu-ad **/xampp/htdoc
+```
+3. **Run the XAMPP control panel**
+4. **Start Apache**
+5. **Start PHPMyadmin**
+6. **Access PHPmyAdmin, then import [database.sql](database.sql)**
+```cmd
+mysql -u root -p
+```
+```cmd
+CREATE DATABASE new_database;
+```
+```cmd
+mysql -u username -p new_database <database.sql
+```
+8. **Open a browser, type in the project directory, and run**
 
-## Struktur Proyek
+## Project Structure
 ```
 situs-laundry-fu-ad/
 ┣ 📂admin
@@ -136,8 +135,8 @@ situs-laundry-fu-ad/
 ┗ 📜README.md
 ```
 
-## Kontribusi
-Kontribusi sangat diterima! Harap lakukan fork dari repositori ini dan buat pull request dengan perubahan Anda.
+## Contributions
+Contributions are very welcome! Please fork this repository and make a pull request with your changes.
 
-## Lisensi
-Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
