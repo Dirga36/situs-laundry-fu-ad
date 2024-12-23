@@ -7,12 +7,12 @@ This project is an example of a laundry web application from the admin side. The
 - **TRANSACTION**: Sets prices for transactions and transaction flows.
 - **INVOICE**: Provides invoice creation.
 
-## Usefulness
+## Useful for
 This project is useful as an initial example for:
 - Authentication and authorization.
 - Creating transaction flows.
 
-## Line Method
+## Use
 ### Preparation
 • XAMPP (provides the PHP compiler, APACHE, localhost and MySQL required to run this project)
 ### Steps
