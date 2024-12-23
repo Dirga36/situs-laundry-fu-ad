@@ -1,17 +1,17 @@
-# Panel admin dari aplikasi laundry
+# SISTEM INFORMASI LAUNDRY
 
 ## Deskripsi Proyek
-Proyek ini adalah contoh aplikasi-web laundry dari sisi adminnya. Desain dan fitur halaman ini berdasarkan modul **Git & GitHub Fundamental** tugas sebagai referensi yang diberikan; dan mencakup header, area konten utama, dan footer.
-
+Proyek ini adalah contoh aplikasi-web laundry dari sisi adminnya. Desain dan fitur halaman ini berdasarkan modul **MEMBUAT SISTEM INFORMASI LAUNDRY** tugas sekolah saya sebagai referensi yang diberikan; serta mencakup API dan database.
 ## Fitur
-- **Penggunaan CSS**: Mendemonstrasikan bagaimana menggunakan Cascading Style Sheet untuk membuat desain halaman portofolio yang responsif dan modern.
-- **Struktur Halaman Dasar**: Menyediakan contoh struktur halaman web dasar dengan header, konten utama, dan footer.
+- **AUTENTIKASI DAN OTORISASI ADMIN**:.
+- **CRUD**: Menyediakan pengaturan untuk data para pelanggan laundry.
+- **TRANSAKSI**: Menetapkan harga untuk transaksi dan alur transaksi.
+- **INVOICE**: Menyediakan pembuatan invoice.
 
 ## Kegunaan
 Proyek ini berguna sebagai contoh awal untuk:
-- Belajar dasar-dasar membuat halaman portofolio.
-- Membuat struktur halaman web yang responsif.
-- Membuat sebuah _form_ pada halaman web.
+- Autentikasi dan otorisasi.
+- Membuat alur transaksi.
 
 ## Cara Menjalankan
 ### Persiapan
