@@ -13,7 +13,7 @@ Proyek ini berguna sebagai contoh awal untuk:
 - Membuat struktur halaman web yang responsif.
 - Membuat sebuah _form_ pada halaman web.
 
-## Cara Menggunakan
+## Cara Menjalankan
 ### Persiapan
 • XAMPP (menyediakan _compiler_ PHP, APACHE, localhost dan MySQL yang dibutuhkan untuk menjalankan proyek ini)
 ### Langkah-langkah
@@ -28,18 +28,28 @@ Proyek ini berguna sebagai contoh awal untuk:
 3. **Jalankan XAMPP control panel**
 4. **Nyalakan Apache**
 5. **Nyalakan PHPMyadmin**
-6. **Akses PHPmyAdmin, lalu impor database.sql**
-   ```mysql -u root -p```
-   ```CREATE DATABASE new_database;```
-   ```mysql -u username -p new_database < database.sql```
-8. **Buka browser tulis direktori proyek, lalu jalankan**
+6. **Akses PHPmyAdmin, lalu impor  <a href="database.sql">database.sql</a>**
+   ```cmd
+   mysql -u root -p
+   ```
+   ```cmd
+   CREATE DATABASE new_database;
+   ```
+   ```cmd
+   mysql -u username -p new_database < database.sql
+   ```
+8. **Buka browser, tulis direktori proyek, lalu jalankan**
 
 ## Struktur Proyek
 ```
-SMKCoding2024/
-├── index.html
-├── style.css
-└── README.md
+situs-laundry-fu-ad/
+├── admin
+├── assets
+├── README.md
+├── database.sql
+├── index.php
+├── koneksi.php
+└── login.php
 ```
 
 ## Kontribusi
@@ -47,14 +57,3 @@ Kontribusi sangat diterima! Harap lakukan fork dari repositori ini dan buat pull
 
 ## Lisensi
 Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
-
-## Cara menjalankan
-1. download repository ini menjadi zip
-2. install XAMPP
-3. jalankan Apache
-4. hidupkan PHPmyAdmin
-5. extrak zip dari poin 1
-6. pindahkan ke xampp/htdoc/
-7. salin direktori saat ini
-8. akses PHPmyAdmin, lalu impor database dari repository
-9. buka browser tempel direktori sebelumnya, lalu jalankan(enter)
