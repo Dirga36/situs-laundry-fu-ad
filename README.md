@@ -26,11 +26,13 @@ Proyek ini berguna sebagai contoh awal untuk:
     mv situs-laundry-fu-ad **/xampp/htdoc
     ```
 3. **Jalankan XAMPP control panel**
-3. **Tekan APACHE(yang bertuliskan apache) untuk menghidupkan-nya**
-4. **Tekan ADMIN untuk mengakses PHPMyAdmin**
-7. salin direktori saat ini
-8. akses PHPmyAdmin, lalu impor database dari repository
-9. buka browser tempel direktori sebelumnya, lalu jalankan(enter)
+4. **Nyalakan Apache**
+5. **Nyalakan PHPMyadmin**
+6. **Akses PHPmyAdmin, lalu impor database.sql**
+   ```mysql -u root -p```
+   ```CREATE DATABASE new_database;```
+   ```mysql -u username -p new_database < database.sql```
+8. **Buka browser tulis direktori proyek, lalu jalankan**
 
 ## Struktur Proyek
 ```
