@@ -1,7 +1,7 @@
 # LAUNDRY INFORMATION SYSTEM
 
 ## Project Description
-This project is an example of a laundry web application from the admin side. The design and features of this page are based on the **CREATE A LAUNDRY INFORMATION SYSTEM** module of my school assignment as a reference provided; and includes API and database.
+This project is an example of a laundry web application from the admin side. The design and features of this page are based on the **MEMBUAT SISTEM SISTEM INFORMASI LAUNDRY** module of my school assignment as a reference provided; includes API and database.
 ## Features
 - **CRUD**: Provides settings for laundry customer data.
 - **TRANSACTION**: Sets prices for transactions and transaction flows.
@@ -20,7 +20,7 @@ This project is useful as an initial example for:
 ``` bash
 git clone https://github.com/Dirgant/situs-laundry-fu-ad.git
 ```
-2. **Move the project directory to the XAMPP region**:
+2. **Move the project directory to XAMPP**:
 ``` bash
 mv situs-laundry-fu-ad **/xampp/htdoc
 ```
