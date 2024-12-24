@@ -1,13 +1,13 @@
 # LAUNDRY INFORMATION SYSTEM
 
 ## Project Description
-This project is an example of a laundry web application from the admin side. The design and features of this page are based on the **MEMBUAT SISTEM SISTEM INFORMASI LAUNDRY** module of my school assignment as a reference provided; includes API and database.
+This project is an example of a laundry web application from the admin side. The design and features of this page are based on the module of my school assignment as a reference provided; includes API and database.
 ## Features
 - **CRUD**: Provides settings for laundry customer data.
 - **TRANSACTION**: Sets prices for transactions and transaction flows.
 - **INVOICE**: Provides invoice creation.
 
-## Useful for
+## Best practice for
 This project is useful as an initial example for:
 - Authentication and authorization.
 - Creating transaction flows.
