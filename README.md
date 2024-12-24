@@ -22,22 +22,28 @@ git clone https://github.com/Dirgant/situs-laundry-fu-ad.git
 ```
 2. **Move the project directory to XAMPP**:
 ``` bash
-mv situs-laundry-fu-ad **/xampp/htdoc
+mv situs-laundry-fu-ad pathTo/xampp/htdoc
 ```
 3. **Run the XAMPP control panel**
 4. **Start Apache**
 5. **Start PHPMyadmin**
 6. **Access PHPmyAdmin, then import [database.sql](database.sql)**
-```cmd
+```bash
+cd pathTo/xampp/mysql/bin
+```
+```bash
 mysql -u root -p
 ```
-```cmd
-CREATE DATABASE new_database;
+```bash
+CREATE DATABASE your_database;
 ```
-```cmd
-mysql -u username -p new_database <database.sql
+```bash
+mysql -u username -p your_database <database.sql
 ```
-8. **Open a browser, type in the project directory, and run**
+7. **Open a browser, type the project directory, then ENTER**
+```bash
+http://localhost/situs-laundry-fu-ad
+```
 
 ## Project Structure
 ```
