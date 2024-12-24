@@ -40,9 +40,15 @@ CREATE DATABASE your_database;
 ```bash
 mysql -u username -p your_database <database.sql
 ```
-7. **Open a browser, type the project directory, then ENTER**
+7. **Configure [koneksi.php](koneksi.php)**
+```
+*| 
+3|  koneksi = mysqli_connect ("localhost","root","","your_database"); 
+*|
+```
+8. **Open a browser, type the project directory, then ENTER**
 ```bash
-http://localhost/situs-laundry-fu-ad
+http://localhost/situs-laundry-fu-ad-main
 ```
 
 ## Project Structure
