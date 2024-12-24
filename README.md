@@ -51,6 +51,8 @@ mysql -u username -p your_database <database.sql
 http://localhost/situs-laundry-fu-ad-main
 ```
 
+>NOTE: current admin is Rian(tendam12)
+
 ## Project Structure
 ```
 situs-laundry-fu-ad/
