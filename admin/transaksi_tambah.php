@@ -61,37 +61,9 @@ include '../koneksi.php';
                         <td><input type="text" class="form-control" name="jenis_pakaian[]"></td>
                         <td><input type="number" class="form-control" name="jumlah_pakaian[]"></td>
                     </tr>
-                    <tr>
-                        <td><input type="text" class="form-control" name="jenis_pakaian[]"></td>
-                        <td><input type="number" class="form-control" name="jumlah_pakaian[]"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" class="form-control" name="jenis_pakaian[]"></td>
-                        <td><input type="number" class="form-control" name="jumlah_pakaian[]"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" class="form-control" name="jenis_pakaian[]"></td>
-                        <td><input type="number" class="form-control" name="jumlah_pakaian[]"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" class="form-control" name="jenis_pakaian[]"></td>
-                        <td><input type="number" class="form-control" name="jumlah_pakaian[]"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" class="form-control" name="jenis_pakaian[]"></td>
-                        <td><input type="number" class="form-control" name="jumlah_pakaian[]"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" class="form-control" name="jenis_pakaian[]"></td>
-                        <td><input type="number" class="form-control" name="jumlah_pakaian[]"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" class="form-control" name="jenis_pakaian[]"></td>
-                        <td><input type="number" class="form-control" name="jumlah_pakaian[]"></td>
-                    </tr>
-                    </table>
-                    <input type="submit" class="btn btn-primary" value="Simpan">
-                </form>
+                </table>
+                <input type="submit" class="btn btn-primary" value="Simpan">
+            </form>
         </div>
         </div>
     </div>
