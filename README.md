@@ -35,7 +35,7 @@ cd pathTo/xampp/mysql/bin
 mysql -u root -p
 ```
 ```bash
-BUAT DATABASE your_database;
+CREATE DATABASE your_database;
 ```
 ```bash
 mysql -u username -p your_database <database.sql
